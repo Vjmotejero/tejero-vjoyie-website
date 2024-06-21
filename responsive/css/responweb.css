@@ -1,0 +1,37 @@
+/* Create a responsive layout using CSS Grid */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Define equal columns that sit next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  /* Style the images within the columns */
+  .column img {
+    margin-top: 8px;
+    vertical-align: auto;
+    width: 100%;
+  }
+  
+  /* Responsive layout for two columns on smaller screens */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout for single column on even smaller screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  

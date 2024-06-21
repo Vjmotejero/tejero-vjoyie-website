@@ -1,0 +1,192 @@
+.fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: aliceblue;
+    background-color: #5BBCFF;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+}
+
+.fixed1 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: aliceblue;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    width: 100%;
+    height: 25px;
+    padding: 10px;
+
+}
+
+.static1 {
+    position: static;
+    background-color: #FFD1E3;
+    color: rgb(0, 0, 0);
+    margin-top: 6%;
+    padding: 10px;
+    padding: 10px;
+    border: 5px solid #1B4242;
+    height: 120px;
+    width: 900px;
+    font-size: large;
+
+}
+
+.static {
+    position: static;
+    background-color: #FFD1E3;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    padding: 10px;
+    padding: 10px;
+    border: 5px solid #1B4242;
+    height: 120px;
+    width: 900px;
+    font-size: large;
+
+}
+
+.absolute {
+    position: absolute;
+    top: 13%;
+    right: 0%;
+    width: 350px;
+    height: auto;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    padding: 10px;
+    border: 5px solid #1B4242;
+    text-align: center;
+
+}
+
+.fixed2 {
+    position: fixed;
+    top: 24%;
+    right: 0%;
+    width: 350px;
+    height: auto;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(256deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    padding: 10px;
+    padding: 10px;
+    border: 5px solid #1B4242;
+    text-align: center;
+
+}
+
+.absolute2 {
+    position: absolute;
+    top: 35%;
+    right: 0%;
+    width: 350px;
+    height: auto;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(304deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    padding: 10px;
+    padding: 10px;
+    border: 5px solid #1B4242;
+    text-align: center;
+
+
+}
+
+.absolute3 {
+    position: absolute;
+    top: 46%;
+    right: 0%;
+    width: 350px;
+    height: auto;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(243deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    padding: 10px;
+    padding: 10px;
+    border: 5px solid #1B4242;
+    text-align: center;
+}
+
+.absolute4 {
+    position: absolute;
+    top: 57%;
+    right: 0%;
+    width: 350px;
+    height: auto;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(165deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    padding: 10px;
+    padding: 10px;
+    border: 5px solid #1B4242;
+    text-align: center;
+
+}
+
+.absolute5 {
+    position: absolute;
+    top: 68%;
+    right: 0%;
+    width: 350px;
+    height: auto;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(201deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    padding: 10px;
+    padding: 10px;
+    border: 5px solid #1B4242;
+    text-align: center;
+
+}
+
+.absolute6 {
+    position: absolute;
+    top: 79%;
+    right: 0%;
+    width: 350px;
+    height: auto;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(331deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    padding: 10px;
+    padding: 10px;
+    border: 5px solid #1B4242;
+    text-align: center;
+
+}
+
+.absolute7 {
+    position: absolute;
+    top: 90%;
+    right: 0%;
+    width: 350px;
+    height: auto;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(326deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    padding: 10px;
+    padding: 10px;
+    border: 5px solid #1B4242;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: medium;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/social.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>SOCIALS</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px"
+                        viewBox="0 -960 960 960" width="26px" fill="#e8eaed">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Project.html">Project</a></li>
+            <li><a href="social.html">Social</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">VJTech</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Project.html">Project</a></li>
+            <li><a href="social.html">Social</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                        height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg></a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Contact Me</h2>
+        <div class="social-icons">
+            <a href="https://web.facebook.com/vjsabel15"" class="icon facebook" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+                <span class="tooltip">Facebook</span>
+            </a>
+            <a href="https://www.instagram.com/vjjoyie/" class="icon instagram" target="_blank">
+                <i class="fab fa-instagram"></i>
+                <span class="tooltip">Instagram</span>
+            </a>
+            <a href="https://github.com/Vjmotejero" class="icon github" target="_blank">
+                <i class="fab fa-github"></i>
+                <span class="tooltip">GitHub</span>
+            </a>
+            <a href="https://mail.google.com/mail/u/3/#inbox" class="icon gmail" target="_blank">
+                <i class="fas fa-envelope"></i>
+                <span class="tooltip">Gmail</span>
+            </a>
+            <a href="https://vjmotejero/vercel.com" class="icon vercel" target="_blank">
+                <i class="fas fa-cloud"></i>
+                <span class="tooltip">Vercel</span>
+            </a>
+        </div>
+    </div>
+    </section>
+    <div class="contact-container">
+        <h2>For More Information</h2>
+        <div class="contact-info">
+            <div class="info-item">
+                <i class="fas fa-phone"></i>
+                <p>+63 936 714 8754</p>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <p>joyiekotejero24@gmail.com</p>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Deet, Sitio Turod Tayum Abra</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+</body>
+
+</html>

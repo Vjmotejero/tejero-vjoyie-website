@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/project.css">
+    <title>PROJECT</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px"
+                        viewBox="0 -960 960 960" width="26px" fill="#e8eaed">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="social.html">Social</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">VJTech</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="social.html">Social</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                        height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg></a></li>
+        </ul>
+    </nav>
+
+    <div class="projects-container">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="images/smile3.jpg" alt="Project 1">
+                <h3>CALCULATOR</h3>
+                <p>First Activity</p>
+                <a href="calculator/calculator.html" class="project-link">Click Here</a>
+            </div>
+            <div class="project-card">
+                <img src="images/smiley1.jpg" alt="Project 2">
+                <h3>FACEBOOL</h3>
+                <p>Second Activity</p>
+                <a href="facebool/facebool.html" class="project-link">Click Here</a>
+            </div>
+            <div class="project-card">
+                <img src="images/smiley2.jpg" alt="Project 3">
+                <h3>SIMPLE LOGIN</h3>
+                <p>Third Activity</p>
+                <a href="simple login/login.html" class="project-link">Click Here</a>
+            </div>
+            <div class="project-card">
+                <img src="images/smiley4.jpg" alt="Project 3">
+                <h3>RESPONSIVE</h3>
+                <p>Fourth Activity</p>
+                <a href="responsive/responweb.html" class="project-link">Click Here</a>
+            </div>
+            <div class="project-card">
+                <img src="images/smiley5.jpg" alt="Project 3">
+                <h3>SCHEDULE</h3>
+                <p>Last Activity</p>
+                <a href="schedule/schedule.html" class="project-link">Click Here</a>
+            </div>
+            
+        </div>
+    </div>
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+</body>
+
+</html>

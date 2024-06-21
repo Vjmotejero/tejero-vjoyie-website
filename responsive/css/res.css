@@ -1,0 +1,47 @@
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: maroon;
+        color: aqua;
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width: 767px) {
+    body {
+        background-color: palevioletred;
+        color: aqua;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width: 991px) {
+    body {
+        background-color: cyan;
+        color: aqua;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width: 1991px) {
+    body {
+        background-color: cyan;
+        color: aqua;
+    }
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.grid-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
